@@ -14,6 +14,10 @@ int main()
     
     MyFuncInterface();
 
+    std::cout << "Натиснiть любу клавiшу для виходу." << std::endl;
+    std::cin.get();
+
+    return 0;
 }
 
 
